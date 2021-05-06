@@ -3,11 +3,12 @@
   <groupId>io.github.vampirestudios</groupId>
   <artifactId>VampireLib-Fabric</artifactId>
   <versioning>
-    <latest>2.4.0+build.2-21w18a</latest>
-    <release>2.4.0+build.2-21w18a</release>
+    <latest>3.0.0+build.1-21w18a</latest>
+    <release>3.0.0+build.1-21w18a</release>
     <versions>
       <version>2.4.0+build.2-21w18a</version>
+      <version>3.0.0+build.1-21w18a</version>
     </versions>
-    <lastUpdated>20210506114153</lastUpdated>
+    <lastUpdated>20210506132610</lastUpdated>
   </versioning>
 </metadata>
