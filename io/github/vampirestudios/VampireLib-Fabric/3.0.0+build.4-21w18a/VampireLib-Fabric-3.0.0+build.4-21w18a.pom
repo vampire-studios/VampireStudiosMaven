@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.vampirestudios</groupId>
+  <artifactId>VampireLib-Fabric</artifactId>
+  <version>3.0.0+build.4-21w18a</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.11.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.34.2+1.17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.cottonmc</groupId>
+      <artifactId>Jankson-Fabric</artifactId>
+      <version>1.16-SNAPSHOT</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lettuce.fudge</groupId>
+      <artifactId>artifice</artifactId>
+      <version>0.15.2+21w07a</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>net.fabricmc.fabric-api</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
