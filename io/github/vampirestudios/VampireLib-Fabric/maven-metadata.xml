@@ -3,8 +3,8 @@
   <groupId>io.github.vampirestudios</groupId>
   <artifactId>VampireLib-Fabric</artifactId>
   <versioning>
-    <latest>3.0.0+build.5-21w18a</latest>
-    <release>3.0.0+build.5-21w18a</release>
+    <latest>3.0.1+build.1-21w19a</latest>
+    <release>3.0.1+build.1-21w19a</release>
     <versions>
       <version>2.4.0+build.2-21w18a</version>
       <version>3.0.0+build.1-21w18a</version>
@@ -12,7 +12,8 @@
       <version>3.0.0+build.3-21w18a</version>
       <version>3.0.0+build.4-21w18a</version>
       <version>3.0.0+build.5-21w18a</version>
+      <version>3.0.1+build.1-21w19a</version>
     </versions>
-    <lastUpdated>20210507115920</lastUpdated>
+    <lastUpdated>20210512202423</lastUpdated>
   </versioning>
 </metadata>
