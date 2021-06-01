@@ -3,11 +3,11 @@
   <groupId>io.github.vampirestudios</groupId>
   <artifactId>CosmeticsAPI</artifactId>
   <versioning>
-    <latest>0.1.0</latest>
-    <release>0.1.0</release>
+    <latest>0.1.0+build.1-alpha-1.17-pre2</latest>
+    <release>0.1.0+build.1-alpha-1.17-pre2</release>
     <versions>
-      <version>0.1.0</version>
+      <version>0.1.0+build.1-alpha-1.17-pre2</version>
     </versions>
-    <lastUpdated>20210601105904</lastUpdated>
+    <lastUpdated>20210601115532</lastUpdated>
   </versioning>
 </metadata>
