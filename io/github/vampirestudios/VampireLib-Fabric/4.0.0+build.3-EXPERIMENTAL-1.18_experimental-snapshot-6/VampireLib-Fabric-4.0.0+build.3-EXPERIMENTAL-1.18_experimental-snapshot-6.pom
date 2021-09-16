@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.vampirestudios</groupId>
+  <artifactId>VampireLib-Fabric</artifactId>
+  <version>4.0.0+build.3-EXPERIMENTAL-1.18_experimental-snapshot-6</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.11.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.40.0+1.18_experimental</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.vampirestudios</groupId>
+      <artifactId>artifice</artifactId>
+      <version>0.15.10+21w20a</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>net.fabricmc.fabric-api</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
