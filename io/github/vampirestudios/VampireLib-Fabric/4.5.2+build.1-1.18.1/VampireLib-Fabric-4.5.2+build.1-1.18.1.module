@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.vampirestudios",
+    "module": "VampireLib-Fabric",
+    "version": "4.5.2+build.1-1.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.44.0+1.18"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.0.42"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "artifice",
+          "version": {
+            "requires": "0.15.10+21w20a"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.5.2+build.1-1.18.1.jar",
+          "url": "VampireLib-Fabric-4.5.2+build.1-1.18.1.jar",
+          "size": 1890927,
+          "sha512": "1f504e99657afcc36f2b7566cb4d2a273b0259e461e7ecbf1f128f8a98c05f9efae196f77345c93ef52b78fdcd5266cc98b8e8cf78c8a2e7b2260216cac018ae",
+          "sha256": "70a2b30f861aaed708e3b7710a06d523305767972ba06d888f3cf37b1007f1e5",
+          "sha1": "8da845d8fef558892ac91b88097262e6754c1fa2",
+          "md5": "be81fc9200f35df8ab22ccd2b2dd360e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.44.0+1.18"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.0.42"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "artifice",
+          "version": {
+            "requires": "0.15.10+21w20a"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.5.2+build.1-1.18.1.jar",
+          "url": "VampireLib-Fabric-4.5.2+build.1-1.18.1.jar",
+          "size": 1890927,
+          "sha512": "1f504e99657afcc36f2b7566cb4d2a273b0259e461e7ecbf1f128f8a98c05f9efae196f77345c93ef52b78fdcd5266cc98b8e8cf78c8a2e7b2260216cac018ae",
+          "sha256": "70a2b30f861aaed708e3b7710a06d523305767972ba06d888f3cf37b1007f1e5",
+          "sha1": "8da845d8fef558892ac91b88097262e6754c1fa2",
+          "md5": "be81fc9200f35df8ab22ccd2b2dd360e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.5.2+build.1-1.18.1-sources.jar",
+          "url": "VampireLib-Fabric-4.5.2+build.1-1.18.1-sources.jar",
+          "size": 1562135,
+          "sha512": "90f037076e4ec2890422a1178b9938f6731e42905b73e61a4c51e82df425b1ce847643a27605605c3ec6d28d45ae005b182a42467f9a4a4dd5a2c8c415b9c9e5",
+          "sha256": "ac050ee0f21bc82070c894bb1e6d87800f795fc32a2cc5bf8b444706665b0dc5",
+          "sha1": "ce78835ece1f7930f3d36d3ad166d9420932ccef",
+          "md5": "c59159e0240dbb6b45f6ba8f402ca2e7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.5.2+build.1-1.18.1-javadoc.jar",
+          "url": "VampireLib-Fabric-4.5.2+build.1-1.18.1-javadoc.jar",
+          "size": 853581,
+          "sha512": "b679c35981b6ec51414f7a16ada5e6a519fc2822fc99b99f0534473894b53d749a510f26b5d5126ebe44758086351268f5f7d5238b2a93d7468a3432bbd968ec",
+          "sha256": "8326dde032b4b54727b39c6c45f334aba2053e01b95244d5a4e3bcfb35a13e1a",
+          "sha1": "23c186aaee9a64a7e6f39dc5f9085009eaa5bb14",
+          "md5": "514a7e7c23e0d3e13e4205432b92fc79"
+        }
+      ]
+    }
+  ]
+}
