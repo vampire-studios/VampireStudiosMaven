@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.vampirestudios",
+    "module": "Randomly-Adding-Anything-Core",
+    "version": "2.0.0+1.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.0.42"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.0.0+1.18.1.jar",
+          "url": "Randomly-Adding-Anything-Core-2.0.0+1.18.1.jar",
+          "size": 3801536,
+          "sha512": "38b3705c77b8043bbfeff50370ddff2567bf2109ad770d968c33dc3b814f5a5ef945af3c2cc454821bb4b67d4988928ad62f98aa8e1649a17e29e641aa309215",
+          "sha256": "5b933f588273545ab1b6bc0509d6a31de38a1de185d5cddbbfb048955d54ebc0",
+          "sha1": "1789aa122055fda1df8f714fe179b731cb4bbc74",
+          "md5": "fdeef83c05357c3c489c6857f4e76c9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.0.42"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.46.0+1.18"
+          }
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "VampireLib-Fabric",
+          "version": {
+            "requires": "4.5.3+build.1-1.18.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "io.github.cottonmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.0.0+1.18.1.jar",
+          "url": "Randomly-Adding-Anything-Core-2.0.0+1.18.1.jar",
+          "size": 3801536,
+          "sha512": "38b3705c77b8043bbfeff50370ddff2567bf2109ad770d968c33dc3b814f5a5ef945af3c2cc454821bb4b67d4988928ad62f98aa8e1649a17e29e641aa309215",
+          "sha256": "5b933f588273545ab1b6bc0509d6a31de38a1de185d5cddbbfb048955d54ebc0",
+          "sha1": "1789aa122055fda1df8f714fe179b731cb4bbc74",
+          "md5": "fdeef83c05357c3c489c6857f4e76c9e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.0.0+1.18.1-sources.jar",
+          "url": "Randomly-Adding-Anything-Core-2.0.0+1.18.1-sources.jar",
+          "size": 1232218,
+          "sha512": "b76a8b45d5e0f0893178b030e02ee01e07ef73140d69d59a572b48241a5f64ae10c3a6e9409af4848ea0159e8b34827921bb79a3e561e2bad3fc16809a98ce8a",
+          "sha256": "bffc5a4f2172d4eb2c630a9000e9e335e6d5bb55cc9402dd1e30c297ab5a0d5e",
+          "sha1": "f3dc624127268fe2a96c112bb14507901f495a53",
+          "md5": "89b6f13b6149fc67ff0253cb6594f82f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.0.0+1.18.1-javadoc.jar",
+          "url": "Randomly-Adding-Anything-Core-2.0.0+1.18.1-javadoc.jar",
+          "size": 186087,
+          "sha512": "f9b1df133d858b7b41c11e3bba8f36f9c706a59b383883b0906b52de996f479c0d8ffed832b05d509f34742df42c2c26fdbfe7c08e5a58ae1240e0d11d1008aa",
+          "sha256": "ba87480b8186cffa8c619c20c91a3263b03cdedffc3bb4e40f02e5df1b997f63",
+          "sha1": "599bbffdb5dd2b0ccd937da2509536084cd9d072",
+          "md5": "098e6ff8bad6ef69f0d2c404d094565b"
+        }
+      ]
+    }
+  ]
+}
