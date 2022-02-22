@@ -1,0 +1,294 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.vampirestudios",
+    "module": "VampireLib-Fabric",
+    "version": "4.8.1+build.1-1.18.2-pre2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.47.6+1.18.2"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.2.57"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "artifice",
+          "version": {
+            "requires": "0.15.10+21w20a"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2.jar",
+          "url": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2.jar",
+          "size": 1817238,
+          "sha512": "5e576360c955def1574e93a34797f30ff0d7cf820ff0f6d9fbb36c741d2813a644cf33eb1e86915d8a9b4f8520cce5f27dddf87ab6e483db68852ddb277e0cc4",
+          "sha256": "9505d23f29c08be562af431905208aea578605f471531205013d43a219a91de3",
+          "sha1": "0723ec2110a80561a710a07317fbd2f7ce6e076e",
+          "md5": "8404dd2d6304a0a21adb4a61963c3d51"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.47.6+1.18.2"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.2.57"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "artifice",
+          "version": {
+            "requires": "0.15.10+21w20a"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.13.3"
+          }
+        },
+        {
+          "group": "com.terraformersmc.terraform-api",
+          "module": "terraform-wood-api-v1",
+          "version": {
+            "requires": "2.0.2"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2.jar",
+          "url": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2.jar",
+          "size": 1817238,
+          "sha512": "5e576360c955def1574e93a34797f30ff0d7cf820ff0f6d9fbb36c741d2813a644cf33eb1e86915d8a9b4f8520cce5f27dddf87ab6e483db68852ddb277e0cc4",
+          "sha256": "9505d23f29c08be562af431905208aea578605f471531205013d43a219a91de3",
+          "sha1": "0723ec2110a80561a710a07317fbd2f7ce6e076e",
+          "md5": "8404dd2d6304a0a21adb4a61963c3d51"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2-sources.jar",
+          "url": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2-sources.jar",
+          "size": 1255388,
+          "sha512": "9969ee845db08b93bc0980f43077fac87906ed63a619df7102deb2497e236d5d6ac9cca5ed63672eeb314f56ba4b4e9f257571f1c5e1d28383525a0e182eb155",
+          "sha256": "18e11f4b6a6dc2f141c2b07c71a987628d8a9f7633c47bb02b48bcc6baed918b",
+          "sha1": "405155fcf0d561f017ec93180caee002972d9a2f",
+          "md5": "e7a9863725fdae0bd9884cf68f4b5031"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2-javadoc.jar",
+          "url": "VampireLib-Fabric-4.8.1+build.1-1.18.2-pre2-javadoc.jar",
+          "size": 788990,
+          "sha512": "4a0e0924f50155fc21cf0623aaf44a6d9171b428fcb48815f6fc666b47622fc68aef632a7d41bf455c7e4fcb5a541b89481017e032a2658f314a9047bb496a12",
+          "sha256": "e1049792a0cebdf06277b8189a31e00409f85168b4b961d99c7c8d572469d264",
+          "sha1": "d8c1e069dcdde6ef79476a28eecdd04e6821257f",
+          "md5": "6adadf75dbca65f104792eaca9ac93bc"
+        }
+      ]
+    }
+  ]
+}
