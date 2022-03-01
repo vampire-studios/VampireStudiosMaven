@@ -1,0 +1,265 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.vampirestudios",
+    "module": "Randomly-Adding-Anything-Core",
+    "version": "2.1.0+1.18.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.2.57"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.1.0+1.18.2.jar",
+          "url": "Randomly-Adding-Anything-Core-2.1.0+1.18.2.jar",
+          "size": 3951972,
+          "sha512": "c830ebf9d2dcdaee6baadee09500197d6d43edf57abcb0987048d63b5bd6eb8cc36df634cbe94c8a491ff93242a58ecd9d2c6666fd576dec4f1fb0107140ca7e",
+          "sha256": "465911be8a197c41ee10fe4a1df99c64e6658f2e03d0e4f7a89c46ad2376f52c",
+          "sha1": "08a9178cf97ecbc9a16a2195dcf11f5a20c477e6",
+          "md5": "99b0225a08f415e398be1ec5007861b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "6.2.57"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.13.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.47.8+1.18.2"
+          }
+        },
+        {
+          "group": "io.github.vampirestudios",
+          "module": "VampireLib-Fabric",
+          "version": {
+            "requires": "4.8.2+build.1-1.18.2-pre3"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "io.github.cottonmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.1.0+1.18.2.jar",
+          "url": "Randomly-Adding-Anything-Core-2.1.0+1.18.2.jar",
+          "size": 3951972,
+          "sha512": "c830ebf9d2dcdaee6baadee09500197d6d43edf57abcb0987048d63b5bd6eb8cc36df634cbe94c8a491ff93242a58ecd9d2c6666fd576dec4f1fb0107140ca7e",
+          "sha256": "465911be8a197c41ee10fe4a1df99c64e6658f2e03d0e4f7a89c46ad2376f52c",
+          "sha1": "08a9178cf97ecbc9a16a2195dcf11f5a20c477e6",
+          "md5": "99b0225a08f415e398be1ec5007861b5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.1.0+1.18.2-sources.jar",
+          "url": "Randomly-Adding-Anything-Core-2.1.0+1.18.2-sources.jar",
+          "size": 1235650,
+          "sha512": "8ddab9b9abada091b182bf94a303c766028f2be0da3e78745db8dd3568814c5e2788596d6c2bf285e4b5ce0ad29097f8b9ef0d2a07906a85673d9b8df79ed284",
+          "sha256": "1c782e5ee220af3ecfce11608de80bc102b97c8815661bfaf4b6c52752c57d76",
+          "sha1": "6242edde5b92cc89402d365d30d2b40899605d78",
+          "md5": "f09ed0f0663b44404fe4f0de5f95c94a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Randomly-Adding-Anything-Core-2.1.0+1.18.2-javadoc.jar",
+          "url": "Randomly-Adding-Anything-Core-2.1.0+1.18.2-javadoc.jar",
+          "size": 186140,
+          "sha512": "28da0197e536ca56fe2cfbc568aab806fdc0185a4bbf240931a4e1d22d64bdc206b5be4f92ef9d657ec9dedfb634522445f8b06c9d2764aa87460be6752ae63a",
+          "sha256": "15781b3fc683b598aec28fe74167889241b086975f317a675a5805be9da0c13a",
+          "sha1": "fe95daeba2ff1fa57a957403d285aa4f1a596b24",
+          "md5": "f8e86368006145dff9ab1a7b6f3e3c3b"
+        }
+      ]
+    }
+  ]
+}
