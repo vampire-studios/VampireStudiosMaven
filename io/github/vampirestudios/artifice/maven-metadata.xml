@@ -3,12 +3,13 @@
   <groupId>io.github.vampirestudios</groupId>
   <artifactId>artifice</artifactId>
   <versioning>
-    <latest>0.15.10+1.16.5</latest>
-    <release>0.15.10+1.16.5</release>
+    <latest>0.19.0+build.1-22w13a</latest>
+    <release>0.19.0+build.1-22w13a</release>
     <versions>
       <version>0.15.10+21w20a</version>
       <version>0.15.10+1.16.5</version>
+      <version>0.19.0+build.1-22w13a</version>
     </versions>
-    <lastUpdated>20210524191455</lastUpdated>
+    <lastUpdated>20220403174733</lastUpdated>
   </versioning>
 </metadata>
